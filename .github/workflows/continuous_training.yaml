@@ -1,5 +1,8 @@
 name: Continuoos Training
 on:
+  push:
+    branches:
+      - "workflow_continuos_train"
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
