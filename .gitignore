@@ -2,7 +2,7 @@
 *.csv
 *.pkl
 .ipynb_checkpoints
-*.txt
+report.txt
 *.png
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,linux,windows,python
