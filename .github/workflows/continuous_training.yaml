@@ -44,7 +44,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
       - name: Contiuous machine learning
-        uses: iterative/setup-cml
+        uses: iterative/setup-cml@v1
       - name: Publish metrics
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
