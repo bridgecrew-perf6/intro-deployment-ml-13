@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 
 
 def update_model(model: Pipeline) -> None:
-    dump(model, "model/.pkl")
+    dump(model, "model/model.pkl")
 
 def save_simple_metrics_report(train_score: float, test_score: float, validation_score: float, model: Pipeline) -> None:
     with open("report.txt", "w") as f:
